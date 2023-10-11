@@ -1,0 +1,209 @@
+$screen-sm-min : 768px;
+$screen-md-min : 992px;
+$screen-lg-min : 1200px;
+
+$margin1: 80px;
+$margin2: 40px;
+$margin3: 25px;
+$margin4: 20px;
+$margin5: 10px;
+
+$fontSize1 : 48px;
+$fontSize2 : 36px;
+$fontSize3 : 18px;
+$fontSize4 : 14px;
+$fontSize5 : 12px;
+
+$bgColor2 : #ececec;
+$bgColor3 : #555;
+
+$headingColor : #555;
+$fontColor : #999;
+
+.border{
+	border:#f00 solid 1px;
+}
+
+.line{
+	height: 1px;
+	background-color: #666;
+}
+
+.sectionBorder{
+	border: #ddd solid 1px;
+}
+
+.bgColor2{
+	background-color : $bgColor2;
+}
+
+.bgColor3{
+	background-color : $bgColor3;
+}
+
+.heading1{
+	color : $headingColor;
+	font-size : $fontSize1;
+	line-height : $fontSize1;
+}
+
+.heading2{
+	color : $headingColor;
+	font-size : $fontSize2;
+	line-height : $fontSize2;
+}
+
+.heading3{
+	color : $headingColor;
+	font-size : $fontSize3;
+	line-height : $fontSize3;
+}
+
+.heading4{
+	color : $headingColor;
+	font-size : $fontSize4;
+	line-height : $fontSize4;
+}
+
+.margin1{
+	margin : $margin1 auto;
+}
+
+.margin2{
+	margin : $margin2 auto;
+}
+
+.margin3{
+	margin : $margin3 auto;
+}
+
+.margin4{
+	margin : $margin4 auto;
+}
+
+.margin5{
+	margin : $margin5 auto;
+}
+
+.fontBold{
+	font-weight : bolder;
+}
+
+.fontLight{
+	font-family : Roboto Light;
+}
+
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) {
+	
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) {
+	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+	
+}
+
+
+
+html, body{font-family: Roboto; font-size: $fontSize5; color: $fontColor; min-width:320px;}
+
+#skills table{width:100%;}
+#skills table td{padding-top: 10px; padding-bottom:10px;}
+#skills table td:nth-child(1){width:65%; text-align:left;}
+#skills table td:nth-child(2){width:35%; text-align:right;}
+
+#skills table td .starContainer{display:inline-block; margin:5px auto;}
+#skills table td .star{width:15px;}
+#skills table td .star.active{display:none;}
+#skills table td .star.deactive{display:block;}
+
+#skills table td .oneStar .star1 .active{display:block;}
+#skills table td .oneStar .star1 .deactive{display:none;}
+#skills table td .oneStar .star2 .active{display:none;}
+#skills table td .oneStar .star2 .deactive{display:block;}
+#skills table td .oneStar .star3 .active{display:none;}
+#skills table td .oneStar .star3 .deactive{display:block;}
+#skills table td .oneStar .star4 .active{display:none;}
+#skills table td .oneStar .star4 .deactive{display:block;}
+#skills table td .oneStar .star5 .active{display:none;}
+#skills table td .oneStar .star5 .deactive{display:block;}
+
+#skills table td .twoStar .star1 .active{display:block;}
+#skills table td .twoStar .star1 .deactive{display:none;}
+#skills table td .twoStar .star2 .active{display:block;}
+#skills table td .twoStar .star2 .deactive{display:none;}
+#skills table td .twoStar .star3 .active{display:none;}
+#skills table td .twoStar .star3 .deactive{display:block;}
+#skills table td .twoStar .star4 .active{display:none;}
+#skills table td .twoStar .star4 .deactive{display:block;}
+#skills table td .twoStar .star5 .active{display:none;}
+#skills table td .twoStar .star5 .deactive{display:block;}
+
+#skills table td .threeStar .star1 .active{display:block;}
+#skills table td .threeStar .star1 .deactive{display:none;}
+#skills table td .threeStar .star2 .active{display:block;}
+#skills table td .threeStar .star2 .deactive{display:none;}
+#skills table td .threeStar .star3 .active{display:block;}
+#skills table td .threeStar .star3 .deactive{display:none;}
+#skills table td .threeStar .star4 .active{display:none;}
+#skills table td .threeStar .star4 .deactive{display:block;}
+#skills table td .threeStar .star5 .active{display:none;}
+#skills table td .threeStar .star5 .deactive{display:block;}
+
+#skills table td .fourStar .star1 .active{display:block;}
+#skills table td .fourStar .star1 .deactive{display:none;}
+#skills table td .fourStar .star2 .active{display:block;}
+#skills table td .fourStar .star2 .deactive{display:none;}
+#skills table td .fourStar .star3 .active{display:block;}
+#skills table td .fourStar .star3 .deactive{display:none;}
+#skills table td .fourStar .star4 .active{display:block;}
+#skills table td .fourStar .star4 .deactive{display:none;}
+#skills table td .fourStar .star5 .active{display:none;}
+#skills table td .fourStar .star5 .deactive{display:block;}
+
+#skills table td .fiveStar .star1 .active{display:block;}
+#skills table td .fiveStar .star1 .deactive{display:none;}
+#skills table td .fiveStar .star2 .active{display:block;}
+#skills table td .fiveStar .star2 .deactive{display:none;}
+#skills table td .fiveStar .star3 .active{display:block;}
+#skills table td .fiveStar .star3 .deactive{display:none;}
+#skills table td .fiveStar .star4 .active{display:block;}
+#skills table td .fiveStar .star4 .deactive{display:none;}
+#skills table td .fiveStar .star5 .active{display:block;}
+#skills table td .fiveStar .star5 .deactive{display:none;}
+
+
+
+#contact .heading2{color:#fff;}
+#contact .element{padding: 30px; line-height:30px; color:#aaa;}
+#contact .element .icon{width:30px; float:left; margin-right:20px;}
+
+
+
+#projects .element{padding:20px; margin:10px auto; background-color: #fff; border-radius: 5px; border: #ccc solid 1px;}
+#projects .element .title{margin-top:0px;}
+#projects .element .description{height: 40px; margin-bottom:20px;}
+#projects .element .tag{padding:3px 5px; margin:2px; margin-left:0px; font-size:10px; background-color:#666; color:#FFF;}
+#projects .element .link{display:block; margin-top:20px; font-weight:bolder; text-decoration:none;}
+
+.tag{padding:10px; border:#ececec solid 1px; border-radius:5px; margin:10px; display:inline-block; background-color:#f9f9f9; cursor:default;}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto Light;
+    src: url(../fonts/Roboto-Light.ttf);
+}
